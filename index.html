@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
 
-    <!--- basic page needs 
+    <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
     <title>Visit Ilya in SUSTech</title>
@@ -24,6 +23,17 @@
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
+    <script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
 
 
 
@@ -36,52 +46,46 @@
         <header class="header">
             <div class="header__content row">
 
-                <div class="header__logo">
-                       Visit Ilya in SUSTech
-                </div> <!-- end header__logo -->
-
+<!--               <div class="header__logo">
+                       Information for IWAT Participants 
+                </div> 
+-->
            
 
-         
+          
 
 
-               <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
 
                 <nav class="header__nav-wrap">
- 
+
                     
 
-                    <ul class="header__nav">
-                        <li><a href="https://jingzhang237.github.io/Visit-Ilya1/" target="_blank">Home</a></li>
-                      <li><a href="info" target="_blank">Guidence to SUSTech</a></li>
-                        <li><a href="#A" title="">About Department of Mathmatics</a></li>
-                    <li><a href="#R" title="">About Center</a></li> 
-                       <!-- <li><a href="#L" title="">Logistics</a></li>             -->        
-                         
-                    </ul> <!-- end header__nav -->
+                   <ul class="header__nav">
+                       <li><a href="index" target="_blank">Visit Ilya in SUSTech</a></li>
+                        <li><a href="#F" title="">FAQ</a></li>
+                        <li><a href="#L" title="">Local Info</a></li>
+                        <li><a href="#DD21" title="">Maps</a></li>    
+                    </ul> 
                     <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
 
-                            
-                    
-                </nav> <!-- end header__nav-wrap -->
+                </nav> 
 
-            </div> <!-- header-content -->
-        </header> <!-- header -->
-
-
-        <div class="pageheader-content row">
+            </div> 
+        </header> 
+  <div class="pageheader-content row">
             <div class="col-full">
 
                 <div class="featured">
 
                     <div class="featured__column featured__column--big">
-                        <div class="entry" style="background-image:url('https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/Ilya%20(2).png?v=1716470603558');">
+                        <div class="entry" style="background-image:url('https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/sustech.webp?v=1716804142737');">
                             
 
 
                             <div class="entry__content">
 
-                                <h1><a>Welcome to SUSTech</a></h1>
+                                <h1><a>Guidence to SUSTech</a></h1>
 
                
 
@@ -103,12 +107,48 @@
 
             </div> <!-- end col-full -->
         <!-- end pageheader-content row  </div> -->
+<!--
+        <div class="pageheader-content row">
+            <div class="col-full">
 
-    </section> <!-- end s-pageheader -->
+                <div class="featured">
+
+                    <div class="featured__column featured__column--big">
+                        <div class="entry" style="background-image:url('images/shenzhen2.jpg');">
+                            
+
+
+                            <div class="entry__content">
+
+                                <h1><a>Special Session on Algebraic and Geometric Topology</a></h1>
+
+               
+
+                                    <ul class="entry__meta">
+                                        <li><a href="http://www.sustc.edu.cn/en/faculty_54"> </a> Fudan University</li> <li>Shanghai, China</li>
+ 					<li>2024</li>
+                                    </ul>
+                                </div>
+
+                           </div> 
+                            
+                        </div> 
+                    </div> 
 
 
 
- <!-- s-content
+
+                 
+                </div> 
+
+            </div> 
+        </div> 
+-->
+    </section> 
+
+
+
+  <!-- s-content
     ================================================== -->
     <section class="s-content s-content--narrow s-content--no-padding-bottom">
 
@@ -116,15 +156,481 @@
 
    
               
-<h1> <p>  <a href="info" target="_blank">
-                     Guidence </a> to <a href="https://www.sustech.edu.cn/en/" target="_blank">
-                    SUSTech</a> in China, 2024. 
-                     </p>
+
+                <h3><a id="F"></a>Frequently Asked Questions</h3>
+                <p> 
+            <li>
+  <a onclick="toggle_visibility('q1');"><b> About visa </b></a><br />
+  <div id="q1" class="toshow" style="display:none">
+    We recommend applying for an F visa as it is more relevant and requires fewer documents. <br /><br />
+    For an invitation letter and contact information, please contact 
+    <a href="mailto:zhangj5@mail.sustech.edu">Ms Zhang</a>. <br /><br />
+    For up-to-date information on visa requirements for China, 
+    including recent relaxations for EU citizens, please consult 
+    <a href="https://www.china-briefing.com/news/china-visa-free-travel-policies-complete-guide/" target="_blank">here</a>.
+  </div>
+</li>
+
+                    <li><a id="G"></a><a onclick="toggle_visibility('q2');"><b>What is the address of my hotel in Shenzhen?</b></a><br />
+                        <div id="q2" class="toshow" style="display:none">
+                           Guest House<br />
+                           Southern University of Science and Technology<br />
+                           1088 Xueyuan Avenue, Nanshan District<br />
+                           Shenzhen, Guangdong 518055 China<br />
+                           Tel: +86-755-8666 4284<br />
+                           If you need to show the address written in Chinese characters to a local taxi driver, it is<br />
+                           南方科技大学3号门（深圳市南山区学苑大道1088号南方科技大学专家公寓）
+                        </div>
+                    </li> 
+                  <li><a id="G1"></a><a onclick="toggle_visibility('q22');"><b>Campus Access</b></a><br />
+                        <div id="q22" class="toshow" style="display:none">
+                           Our campus is not open to the general public, 
+                  requiring card access for entry and exit. Upon check-in at the Guest House, 
+                  you will be issued a hotel room card that will allow you to move freely throughout the campus. <br />
+                  If any issues arise at the campus gates, 
+                  please show the  photo of Ms Jing's staff card or contact Ms Jing. (Please contact 
+    <a href="mailto:zhangj5@mail.sustech.edu">Ms Zhang</a> to get this photo and contact information)
+                        </div>
+                    </li> 
+              
           
-  
-          </h1>
+
+                  
+                  
+                  
+                    <li><b><a onclick="toggle_visibility('q6');">Travel adapter</a></b><br />
+                        <div id="q6" class="toshow" style="display:none">
+                            The voltage in China is 220V at 50Hz. If your device's charger is 2-pin plug, you can handle it fine without a transformer. 
+                            But if it is 3-pins, you should take a travel adapter with you. 
+                            Please refer <a href="https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#China_CPCS-CCC_(Type_I)" target="_blank">here</a> for the Chinese sockets.<br />
+                        </div>
+                    </li>
+                    
+                    <li><b><a onclick="toggle_visibility('q7');">Laundry facilities</a></b><br />
+                        <div id="q7" class="toshow" style="display:none">
+                            The Guest House offers laundry facilities, including dryers, free of charge. 
+                            They are located in the bathrooms on the 3rd floor of Block 2 (the building where you check in).<br />
+                        </div>
+                    </li>
+                    
+                    <li><a id="HK1"></a><b><a onclick="toggle_visibility('q8');">Wi-Fi, eduroam, VPN</a></b><br />
+                        <div id="q8" class="toshow" style="display:none">
+                            <i>GUEST HOUSE:</i> Free wifi with password is available. <br />
+                    
+                            <i>ELSEWHERE ON CAMPUS:</i> Free wifi with password for guests is available. 
+                            Besides, SUSTech is a participating institution of eduroam. <br />
+                         
+<!--                         <i>SHENZHEN AIRPORT:</i> Free wifi "AirportSZ" and "SZairport", log in with your boarding information.  <br />
+                         <i>HongKong AIRPORT:</i> Free wifi is available <br /> -->
+                            <i>SHENZHEN METRO:</i> Free wifi is available for limited time or need to download app. <br />
+                         
+                          
+                         
+                            <a onclick="toggle_visibility('q8b');"><i>VPN</i></a><br />
+                            <div id="q8b" class="toshow" style="display:none">
+                                To access Gmail and use WhatsApp effectively in China, you will need a VPN due to internet restrictions. Conversely, using WeChat outside of China may require a VPN connected to China for full functionality.
+                            </div>
+                        </div>
+                     </li>
+            
+                     <li><b><a onclick="toggle_visibility('q9');">Currency exchange</a></b><br />
+                         <div id="q9" class="toshow" style="display:none">
+                           
+If you need cash, you can withdraw RMB cash with your bank card at an ATM with logos of the corresponding bankcard 
+                           organizations. 
+                           You can also directly exchange at bank outlets with currency exchange signs, 
+                           outlets of qualified financial institutions, or self-service kiosks Please consult 
+                           the staff for currencies available.                                <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/cash.jfif?v=1716864249387" target="_blank"> (Details)</a> 
+<br /><br />
+                             Exchange desks and ATM's are available at the Hong Kong and Shenzhen airports (recommended).<br /><br />
+
+                             Close to SUSTech Gate 1, there are branches of CITIC Bank <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/bank.jpeg?v=1716465224144" target="_blank">(Photo)</a> 
+                           <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/map-citic.png?v=1716465143476" target="_blank">(Map)</a> 
+                             and Bank of China
+                             <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/BankofChina.jfif?v=1716465706537" target="_blank"> (Photo)</a> <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/map-china.png?v=1716465183040" target="_blank"> (Map)</a>.  <br /><br />
+                             Near the guest house, there is an <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/ATM.png?v=1716466234294" target="_blank">ATM</a> 
+                           and a branch of 
+                           <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/citi-inxiaoyuan.jpeg?v=1716466177564" target="_blank">CITIC Bank</a>.
+                          <a href="images/campus.jpg" target="_blank">(Map1)</a> <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/Maps_SUSTech.pdf?v=1716466096497" target="_blank">(Map2)</a> 
+                          
+                              
+                        </div>
+                     </li>
+                  
+                   <li><a id="GGG2"></a><a onclick="toggle_visibility('gG');"><b>Payment Services in China</b></a>  <br />
+                        <div id="gG" class="toshow" style="display:none">
+                            <a onclick="toggle_visibility('gG1');"><i>Bank card</i></a><br />
+                            <div id="gG1" class="toshow" style="display:none">
+                              Note: Many places on campus don't accept credit cards, except                            <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/STARBUCK.png?v=1716865022411" target="_blank">Starbucks</a>.
+
+<br /><br />
+                                Bank cards issued in your home country/region can be accepted if 
+                              logos of UnionPay, Visa, Mastercard and other payment organizations 
+                              are displayed  at the checkoutcounter (see 
+                               <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/bankcard.png?v=1716861160137" target="_blank">picture</a> 
+                             ).
+                          If not, please ask the cashier whether your bank card canbe accepted. 
+                          If you hold a UnionPay card, it can be accepted by all merchant POS 
+                          terminals in China's mainland.</div> 
+                         
+                          
+                            <a onclick="toggle_visibility('gG2');"><i>Ali Pay</i></a><br />
+                            <div id="gG2" class="toshow" style="display:none">
+                              (1) Search for Alipay in the app store or onits official website,and download the app.
+                              <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/ali1.png?v=1716862557498" target="_blank"> (Details) </a> <br />
+                              (2) Open the app, and register with your phone number or just sign in if you have already registered.
+                              <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/ali2.png?v=1716862574721" target="_blank"> (Details) </a> <br />
+                           (3) Add bank cards as shown.
+                              <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/ali3.png?v=1716862243299" target="_blank"> (Details) </a> <br />
+                              Note: Visa, Mastercard, JCB, Diners Club, and Discover cards can all be added to Alipay.
+                          (4) Pay by scanning QR code.
+                              You can pay by scanning a merchant's QRcode or by having a merchant scan yours. 
+                              <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/ali4.jfif?v=1716862513806" target="_blank"> (Details) </a> <br />
+                          
+                          </div>
+                            
+                            <a onclick="toggle_visibility('gG3');"><i>WeChat Pay</i></a><br />
+                            <div id="gG3" class="toshow" style="display:none">
+                                (1)Search for WeChat in the app store, and download it.
+                              <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/wei1.png?v=1716863101375" target="_blank"> (Details) </a> <br />
+                              (2) Open the WeChat app, and register with yourphone number or just sign in if you have alreadyregistered.
+                                                           <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/wei2.png?v=1716863150292" target="_blank"> (Details) </a> <br />
+
+                              (3) Add bank cards as shown.
+                                                                                         <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/weixin23.jfif?v=1716863204120" target="_blank"> (Details) </a> <br />
+                              Note: Visa, Mastercard,American Express, JCB, Diners Club, and Discover cards canall be added to Weixin Pay.
+                                                                                         <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/wei3.1.png?v=1716863234546" target="_blank"> (Details) </a> <br />
+
+                          
+                              (4) Pay by scanning QR code. You can pay by scanning amerchant's QR code or by having a merchants can yours.
+                                                            <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/wei4.png?v=1716863367002" target="_blank"> (Details) </a> <br />
+
+                              
+                            </div>
+                            
+                            <a onclick="toggle_visibility('gG4');"><i>Union Pay</i></a><br />
+                            <div id="gG4" class="toshow" style="display:none">
+                                (1)Download the UnionPay app in the app store orfrom its official website.
+                              (2) Register with your phone number and enablethe payment function.
+                                  <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/unipay1.jfif?v=1716863578741" target="_blank"> (Details) </a> <br />
+(3) Add bank cards as shown.
+                                   <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/unipay2.jfif?v=1716863632840" target="_blank"> (Details) </a> <br />
+
+Note: It only supports linking UnionPay cardsissued in certain places such as HongKong SAR and Macao SAR.<br />
+                          
+                          
+               (4) Pay by scanning QR code. You can pay by scanning amerchant's QR code or by having a merchants can yours.
+                                                            <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/unipay3.jfif?v=1716863746044" target="_blank"> (Details) </a> <br />
+           <br />***Pay with a Tour CardPay with a Tour Card<br />
+The Tour Card is a prepaid card which youcan apply for and top up in the UnionPay App to make everyday purchases, online or offline.
+                                                          <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/unipay4.jfif?v=1716863901921" target="_blank"> (Details) </a> <br />
+<br />Tips: Please scan the QR code that carries the 
+                              logo of the payment service provider ofyour choice when making payments. 
+                              For example, use the Alipay app to scan the QR code with the Alipay logo.
+                          </div>
+                          
+                          
+                         <a onclick="toggle_visibility('gG5');"><i>Bank Account</i></a><br />
+                            <div id="gG5" class="toshow" style="display:none">
+                              You can open a bank account with 
+                              yourpassport or other valid IDs at any nearbybank outlet, 
+                              such as the Industrial and Commercial Bank of China(ICBC), the 
+                              Agricultural Bank of China(ABC),the Bank of China(BOC), 
+                              the China Construction Bank (CCB), and the Bankof Communications(BOCOM). 
+                              Please consult the staff at the bank outlet or visit their official websites
+                              for more details. With the account, you can enjoy a variety of financial 
+                              services(such as depositand withdrawal of both RMB and foreign currencies, 
+                              foreign currency purchase andsale, domestic transfer and cross-border 
+                              remittance,  foreign currency exchange and making payments).
+                          
+                          
+                          </div>   
+                           <a onclick="toggle_visibility('gG6');"><i>  E-CNY </i></a><br />
+                            <div id="gG6" class="toshow" style="display:none">
+                            You can also make payments in e-CNY if you are interested in e-CNY.
+                              Download the "e-CNY" app in the app store. 
+                              Android users can also scan the QR code in picture. 
+                              Then, pay by following the instructions in the app.
+                                                                                    <a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/e-cny.jfif?v=1716864692282" target="_blank"> (Details) </a> <br />
+
+                          
+                          </div>   
+                          
+                        </div>                    
+                    </li>
+                  
+                  
+                  
+                  
+                  
+                  
+            
+                     <li><b><a onclick="toggle_visibility('q10');">Is Shenzhen tap water safe to drink?</a></b><br />
+                         <div id="q10" class="toshow" style="display:none">
+                            Normally people in China don't drink tap w<br /><br />
+                            Bottled water can be purchased in the <a href="#GG2" target="_blank"> grocery store </a>  on the ground level of 
+                            Apartment 1 at the far end of the residential area from the Guest House, open daily 7:30-10:00. <br /><br />
+                            In addition, there is a vending machine at Apartment 6 next to Guest House Block 2.
+                        </div>
+                     </li>
+
+                     <li><b>Please be mindful that the SUSTech campus is smoke-free.</b></li>
+            
+            </p>
+
+
+
+                <h3><a id="L"></a>Local Information</h3>
+                <p>
+
+                  <li>
+    <a id="D"></a>
+    <a onclick="toggle_visibility('r23');"><b>Navigation</b></a>
+    (<a href="images/campus.jpg" target="_blank">Campus Map</a>)<br />
+    <div id="r23" class="toshow" style="display:none">
                 
-               
+    
+                        <a id="HK2"></a><a onclick="toggle_visibility('n1');"><i>HONG KONG AIRPORT TO SUSTECH</i></a><br />
+                        <div id="n1" class="toshow" style="display:none">  <a href="https://www.hongkongairport.com/en/index.page" 
+                               target="_blank">Here</a> 
+                      is the homepage of Hongkong airport. <br /><br />
+                            There are several ways of 
+                            <a href="https://www.hongkongairport.com/en/transport/mainland-connection/" target="_blank">
+                            getting to Shenzhen from Hong Kong airport</a>.
+                            Several ground transportation options are available 24 hours a day.<br /><br />
+                            If you arrive before 8:00 PM, it might be more convenient to take a <a href="https://www.cathaypacific.com/cx/en_HK/inspiration/travel/how-to-get-to-shekou-from-hong-kong.html" target="_blank">ferry boat</a>  to Shenzhen Shekou. 
+  This way, there is no need to pass through Hong Kong immigration and your checked 
+                          luggage can be transfered to the ferry boat for free 
+                          (Remember go to E2 courter luggage hanging to shenzhen!). Then    you can easily get to <a href="#G" target="_blank">SUSTech Guest House</a> from Shekou port by taxi (about 40 minutes ride for about 70 RMB).
+                            <br />
+                          <b>Note:</b> 
+                          Please, make sure that you get about 100 RMB cash as
+                          taxi drivers in Shenzhen do not accept credit cards. 
+                          If you need reimbursement, please ask the driver for an invoice and keep it.<br /><br />
+                          
+                          In general, foreign credit cards are not widely accepted in Shenzhen, but there are many ATMs with 
+                          VISA/Mastercard logo, where one can withdraw cash with foreign debit/credit
+                          cards.<br /><br />
+                            </div> 
+                          
+                          
+                        <!--
+                            If you plan to spend a bit of time in Hong Kong, a recommended route is to take the 
+                            <a href="https://www.hongkongairport.com/en/transport/to-from-airport/airport-express.page" 
+                               target="_blank">Airport Express</a>
+                            train to Kowloon Station (around 20 min, 105 HKD ticket at entry).<br /><br />
+                            The station is located in a mall, called ELEMENTS, with self-service lockers for rental up to 24 hours
+                            as well as coaches to the Shenzhen Bay Port (around 40 min, 52 HKD).
+                            These services can be found in the
+                            <a href="https://www.elementshk.com/eng/elements/service/lockers.jsp" target="_blank">
+                            waiting area for Mainland coaches on the first floor of Fire Zone</a> 
+                            (here Fire refers to one of the "five elements").<br /><br />
+                            <a href="http://www.mtr.com.hk/en/customer/main/index.html" target="_blank">metro</a>,
+                            or the Kowloon area itself is interesting to explore.
+                        </div>  -->
+                        
+                        <a onclick="toggle_visibility('n2a');"><i>SHENZHEN AIRPORT TO SUSTECH</i></a><br />
+                        <div id="n2a" class="toshow" style="display:none">
+                       From the Shenzhen Bao’an International Airport, you can take the Shenzhen metro or a taxi to get to SUSTech. <br /><br />
+                        1. No matter which way you choose, you can first get to the Ground Transportation Center (GTC) of the airport. <br /><br />
+                        2. There are sign posts in the GTC and you can easily find the metro or the taxi.   <br />
+                        (1) If you choose taxi, when you get off the taxi, remember to ask for the invoice and check if you leave something in the taxi. The normal fees are 75-100 CNY. <br />
+                        (2) If you don't have heavy luggage, you can choose 
+                            <a href="https://www.szmc.net/szmc_en/map/" target="_blank">Metro</a>
+                            Take maroon Line 11 to Qianhaiwan(前海湾) followed by
+                            purple Line 5 is pretty convenient too, 
+                            but it takes longer (50 min, 7 CNY).
+                            Get off at Changlingpi(长岭陂) on Line 5 and there remains
+                            a short 10 min walk to the campus
+                            (<a href="images/changlingpi.jpg" target="_blank">map</a>).
+                        </div>
+                        
+                        <a onclick="toggle_visibility('n2');"><i>SHENZHEN NORTH RAILWAY STATION TO SUSTECH</i></a><br />
+                        <div id="n2" class="toshow" style="display:none">
+                            1. It takes a 10 minute <a href="#T" target="_blank">taxi</a> ride for around 20 CNY
+                            to the <a href="#G" target="_blank">SUSTech Guest House</a>.
+                            Remember to ask for the invoice and check if you leave something in the taxi.<br />
+                            
+                            2. If you don't have heavy luggage, the 
+                            <a href="https://www.szmc.net/szmc_en/map/" target="_blank">Metro</a>
+                            purple Line 5 is pretty convenient too, 
+                            just one stop at Changlingpi(长岭陂)  (in the direction of Qianhaiwan(前海湾) 
+                            followed by a short 10 min walk to the campus
+                            (<a href="images/changlingpi.jpg" target="_blank">map</a>).
+                        </div>
+                        
+                        <a id="T"></a><a onclick="toggle_visibility('n3');"><i>TAXI SERVICE</i></a><br />
+                        <div id="n3" class="toshow" style="display:none">
+                            Each taxi driver should have GPS on their phone and normally uses it. 
+                            Make sure the meter is on, and ask for a receipt 
+                            when you get off so that in case you forgot your belongings it'd be quick to get them back.<br /><br />
+                            
+                            The staff at the front desk of the Guest House are happy to assist you to call a taxi.
+                            When you return to the <a href="#G" target="_blank">campus</a>,
+                            Gate 3 is closest to the Guest House and Gate 1 closest to 
+                            the conference venue.
+                        </div>
+                        
+                        <a onclick="toggle_visibility('n4');"><i>SHENZHEN METRO</i></a><br />
+                        <div id="n4" class="toshow" style="display:none">
+                            <a href="http://www.szmc.net/page/eng/index.html" target="_blank">Here</a> is its website.<br />
+                            
+                            SUSTech Gate 1 is close to Tanglang(塘朗), <a href="images/changlingpi.jpg" target="_blank">
+                            Gate 3 close to Changlingpi(长岭陂)</a>, both on the purple Line 5.<br />
+                            
+                            The most convenient route to downtown Nanshan or Futian is to go up along Line 5 
+                            to Shenzhen North Station(深圳北站) (in the direction of Huangbeiling(黄贝岭))
+                            and then transfer to the red Line 4 heading south toward Futian Checkpoint(福田口岸).<br />
+                            
+            
+                            For change to buy tickets, go to the helping desk at each station.
+                        </div>
+                        
+                        <a href="http://www.mtr.com.hk/en/customer/main/index.html" target="_blank"><i>HONG KONG METRO:</i></a>
+                       <div  id="n5" class="toshow" style="display:none">
+                         Its trip planner generously reaches out to Lines 1-5 of the Shenzhen metro (the estimated journey time counts only the HK side).<br />
+                        
+
+                            <br />
+                        
+                            While wifi isn't available on the trains, sockets can be found under your seats (you may need a travel adapter).
+                        </div> 
+                  </div>   </li>
+                        
+                  <li> <a id="DD21"></a> <b> Maps of SUSTech </b> <br />
+                        (<a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/Maps_SUSTech.pdf?v=1716466822541" target="_blank">Map 2D_marks</a>)
+                     (<a href="images/campus.jpg" target="_blank">Map_marks2 </a>)
+                        (<a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/maps%202D.jpg?v=1716466743096" target="_blank">Map 2D_high definition</a>)
+                    (<a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/maps-3D-English.jpg?v=1716466949594" target="_blank">Map 3D_Eng</a>)
+                    (<a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/maps-3D-Chinese.jpg?v=1716466987076" target="_blank">Map 3D_Double</a>)
+                    (<a href="images/3. Cafeterias_SUSTech_3D.jpg" target="_blank">Map_Cafeterias</a>) <br />  
+                  (<a href="https://sustech.online/transport/bustimer.html" target="_blank">Online campus map</a>) which features real-time location tracking and bus schedules.
+                                
+                    </li>
+                    
+                  
+                  <li><a id="D21"></a><a onclick="toggle_visibility('D211');"><b>Online Guide of SUSTech</b></a>
+                      
+                        <div id="D211" class="toshow" style="display:none">
+                             
+                            In <a href="https://sustech.online/" target="_blank">guide made by SUSTech students</a>. 
+                            You can view 
+                          real-time campus bus routes and arrival times here, as well as the number of people currently 
+                          queuing at the school's cafeterias. Additionally, it includes information on dining, local transportation,
+                          accommodation, 
+                          and various other aspects of life at SUSTech. <br />
+                          
+                          
+                          1. Please note, this website may require a VPN or a local network connection in China.<br />
+                          2. Foreigners could use the <a href="https://support.google.com/chrome/answer/173424" target="_blank"> Google translation tool </a>  in Chrome to translate the manual.
+                           
+                  
+                    </div>                   
+                    </li>
+                  
+                   <li><b>Stores on SUSTech campus</b>:                     (<a href="https://cdn.glitch
+                     .global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/Stores_SUSTech.pdf?v=1716466535769"
+                                                                                target="_blank">Stores
+                     in SUSTech</a>)(<a href="images/campus.jpg" target="_blank">Campus Map</a>)<br />Just beyond Gate 1 is a mall offering a broader array of shopping and dining experiences, should you wish to explore further.
+</li>
+                  
+                  
+                  
+                  
+                  
+                    <li><a id="D1"></a><a onclick="toggle_visibility('r1');"><b>Dining on SUSTech campus</b></a> 
+                        (<a href="images/3. Cafeterias_SUSTech_3D.jpg" target="_blank">Map</a>)
+                        (<a href="images/3. Cafeterias_information.jpg" target="_blank">Infomation</a>)<br />
+                        <div id="r1" class="toshow" style="display:none">
+                            <a onclick="toggle_visibility('r1a');"><i>GUEST HOUSE</i></a><br />
+                            <div id="r1a" class="toshow" style="display:none">
+                                Tea restaurant (Chinese style) (outside Block 1) 11:30 am–2:00 pm, 5:30–8:00 pm<br />
+                                Western-style restaurant (outside Block 2) 7:30–9:00 am, 11:30 am–10:00 pm<br /> <br /> 
+                            </div>Payment can be made using meal tickets, 
+                            although their availability is not guaranteed. 
+                            Alternatively, 
+                            payment can also be processed via WeChat and Alipay (No cash)
+                        </div>                    
+                    </li>
+                    
+                    <li><a id="GG2"></a><a onclick="toggle_visibility('g');"><b>Groceries on  campus</b></a> (<a href="https://cdn.glitch.global/e19ec9e5-7124-4d2e-a1c6-c4f45453635b/Stores_SUSTech.pdf?v=1716466535769" target="_blank">Stores in SUSTech</a>)(<a href="images/campus.jpg" target="_blank">Campus Map</a>)<br />
+                        <div id="g" class="toshow" style="display:none">
+                            <a onclick="toggle_visibility('g1');"><i>GUEST HOUSE</i></a><br />
+                            <div id="g1" class="toshow" style="display:none">
+                                This grocery store is located on the ground level of Apartment 1
+                                at the far end of the residential area from the Guest House, open daily 7:30 am&ndash;10:00 pm. 
+                                Cash accepted.
+                            </div>
+                            
+                            <a onclick="toggle_visibility('g2');"><i>LAKESIDE DORM AREA</i></a><br />
+                            <div id="g2" class="toshow" style="display:none">
+                                This grocery store is located on the ground level of Student Dormitary 3,
+                                open daily 7:00 am&ndash;1:00 am.
+                                It offers a comprehensive selection of everyday items and snacks.
+                                Cash accepted.
+                            </div>
+                            
+                            <a onclick="toggle_visibility('g3');"><i>UPHILL DORM AREA</i></a><br />
+                            <div id="g3" class="toshow" style="display:none">
+                                This grocery store is located on the ground level of Block 4,
+                                open daily 7:00 am&ndash;1:00 am.
+                                It offers a comprehensive selection of everyday items and snacks.
+                                Cash accepted.
+                            </div>
+                            
+                            <a onclick="toggle_visibility('g4');"><i>GATE 3</i></a><br />
+                            <div id="g4" class="toshow" style="display:none">
+                                This 24-hour grocery store is located on the ground level of Building C1,
+                                one of the three glass buildings right outside campus Gate 3.
+                                It offers a comprehensive selection of snacks and daily items (including dental floss).
+                                Cash accepted.
+                            </div>
+                        </div>                    
+                    </li>
+                    
+                    <li><b>Discussion rooms</b>: There are boards, chalks and printers on the two floors of the Math Department 
+                        (<a href="images/campus.jpg" target="_blank">map</a>). Everyone's welcome.</li>
+                    
+                  
+                    
+                   <!--  <li><a onclick="toggle_visibility('p1');"><b>Shenzhen Bay Park</b></a>
+                        (<a href="images/szbaypark.jpg" target="_blank">Map</a>)<br />
+                        <div id="p1" class="toshow" style="display:none">
+                            Extends along the seashore and connects the last two clusters of restaurants above.
+                            Good for cycling, running, walking, or people-watching.<br />
+                        </div>
+                    </li>
+                    
+                    <li><a onclick="toggle_visibility('p2');"><b>OCT LOFT</b></a>
+                        (<a href="images/oct.jpg" target="_blank">Map</a>)<br />
+                        <div id="p2" class="toshow" style="display:none">
+                            The Overseas Chinese Town (OCT, not OCT East) is located in the heart of Nanshan District's living area (SUSTech is 
+                            at the north end), surrounded by trees and green space. The LOFT is a popular spot for young people, 
+                            with (contemporary) art exhibits, book and antique stores, cafes, 
+                            and is connected to other parts of the OCT within walking distance, 
+                            including the Happy Coast above. (See also the first Shenzhen video at the bottom of this page.)<br />
+                        </div>
+                    </li>-->
+                    
+
+                    <li><b>Weather <a href="https://www.timeanddate.com/weather/china/shenzhen/ext" target="_blank">
+                       in Shenzhen  this time </a> 2024</b>: An umbrella was recommended anyway.<br />
+                    </li>
+
+            <!--
+                    <li><a onclick="toggle_visibility('m');"><b>More</b></a>
+                        <div id="m" class="toshow" style="display:none">
+                            A YouTube travel <a href="https://www.youtube.com/watch?v=L_gXbv8nQ58&list=PLzUaNdZ-nXdiotYcu0QjNfulrNdE-723s" target="_blank">
+                            channel</a>: 
+                            <a href="https://youtu.be/27jE1NdJf1g" target="_blank">Hong Kong</a>, 
+                            more <a href="https://youtu.be/FtAH_XjhLb0" target="_blank">Hong Kong</a>, 
+                            <a href="https://youtu.be/OuiAsTwq6x8" target="_blank">Shenzhen</a>, 
+                            more <a href="https://youtu.be/fxxriLWA2wk" target="_blank">Shenzhen</a>
+                        </div>
+                    </li> -->
+                    
+</p>
+                       
 <h3><a id="A"></a>About Department of Mathmatics</h3>
           <p><a href="https://math.sustech.edu.cn/index/?lang=en" target="_blank">
                    The SUSTech Mathematics Department</a>  was founded in June 2015. As of the 2022 - 2023 academic year, the Department consists of 42 research and teaching-line faculty members and 10 teaching-line faculty members, 267 graduate students, and 146 undergraduate majors. The Department is currently located in the College of Science Building, 1088 Xueyuan Avenue. Our administrative office is situated in Room M715 on the seventh floor.
@@ -153,22 +659,20 @@ It aims to advance scientific research in pure mathematics as well as applied an
  </p><p>
 The governing of the Center will be in accordance with international standards for major international mathematics centers. It provides first-class research environment for researchers and visitors alike, hosting annual thematic programs and focused research groups.
           </p>
-    
-                   
+
+<!-- <img align="center" alt="" src="images/futian.jpg" width="">-->
+            
         </article>
-
-
    
 
 
     </section> <!-- s-content -->
-<footer>
-
+<footer> 
         <div class="s-footer__bottom">
             <div class="row">
                 <div class="col-full">
                     <div class="s-footer__copyright">
-                        <span>© Copyright  2024 </span> 
+                        <span>© Copyright 2024</span> 
                         <span>Site Template by <a href="https://colorlib.com/">Colorlib</a></span>
                         <span>SUSTech</span>
                     </div>
@@ -205,5 +709,6 @@ The governing of the Center will be in accordance with international standards f
     <script src="js/main.js"></script>
 
 </body>
-
+ 
+  </head>
 </html>
